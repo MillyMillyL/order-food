@@ -1,0 +1,46 @@
+.ConfirmOutter {
+  z-index: 9999;
+}
+
+.Confirm {
+  position: absolute;
+  width: 700rem;
+  height: 300rem;
+  border-radius: 20px;
+  background-color: #fff;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  padding: 20rem 0;
+  align-items: center;
+}
+
+.ConfirmText {
+  font-size: 36rem;
+}
+
+.BtnOutter {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.CancelBtn,
+.ConfirmBtn {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 10rem 30rem;
+  font-size: 36rem;
+  border-radius: 50px;
+}
+
+.ConfirmBtn {
+  background-color: #fcbf49;
+  color: red;
+  border: none;
+}
